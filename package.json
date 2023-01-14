@@ -1,0 +1,34 @@
+{
+  "name": "cypress-cucumber-framework",
+  "version": "1.0.0",
+  "description": "Demo automation framework using cypress and cucumber js",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "runOnChrome": "cypress run --browser chrome",
+    "run": "cypress run"
+  },
+  "keywords": [
+    "cucumber",
+    "cypress",
+    "javascript",
+    "gherkin"
+  ],
+  "author": "joan esquivel",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
