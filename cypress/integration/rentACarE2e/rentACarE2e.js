@@ -1,5 +1,5 @@
 import {Given, When, And, Then} from 'cypress-cucumber-preprocessor/steps'
-const searchPage = require('../../pages/searchPage.js')
+const searchPage = require('../../pages/rentACarE2e.js')
 
 Given('A user launch Tivixlab website on browser', () => {
     cy.visit('/')

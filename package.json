@@ -1,21 +1,13 @@
 {
-  "name": "cypress-cucumber-framework",
+  "name": "kelton-cypress-bdd-pom",
   "version": "1.0.0",
-  "description": "Demo automation framework using cypress and cucumber js",
+  "description": "Automation project using cypress-bdd-pom-js",
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
     "runOnChrome": "cypress run --browser chrome",
     "run": "cypress run"
   },
-  "keywords": [
-    "cucumber",
-    "cypress",
-    "javascript",
-    "gherkin"
-  ],
-  "author": "joan esquivel",
-  "license": "ISC",
   "devDependencies": {
     "cypress": "^9.7.0",
     "cypress-cucumber-preprocessor": "^4.3.0",
