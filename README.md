@@ -1,2 +1,2 @@
-# kelton-cypress-project
-Kelton Test project
+#cypress-project
+Test project
